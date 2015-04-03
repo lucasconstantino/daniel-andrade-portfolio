@@ -23,6 +23,44 @@ a:hover {
 
 /* GET INCONTACT */
 
+.contact {
+	padding: 40px 0 110px 0;
+	background: url(../img/contact-bg.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 600px;
+
+	.sign-up {
+		padding: 0 15px;
+
+		h2.logo-contact {
+			text-align: center;
+			color: #282f35;
+			letter-spacing: 1px;
+			font-size: 24px;
+			font-weight: 300;
+			background: url(../img/dan.png) no-repeat top center;
+			padding-top: 164px;
+			margin: 70px 0 40px 0;
+			font-style: italic;
+			background-size: 150px;
+		}
+
+		h2.contact_txt{
+			font-weight: 500;
+		}
+
+		.contact_txt {
+		    font-size: 25px;
+		    color: #282f35;
+		    font-weight: 300;
+		}
+	}
+}
+
+
 /* FOOTER */
 
 footer {
