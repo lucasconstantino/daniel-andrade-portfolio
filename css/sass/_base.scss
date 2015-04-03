@@ -21,6 +21,30 @@ a:hover {
     text-decoration: none;
 }
 
+p {
+	font-size: 22px;
+	color: #282f35;
+	font-weight: 300;
+}
+
+/* HEADER */
+header {
+	background: url(../img/top-bg.jpg) no-repeat top center #6eb7f6;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 685px;
+	margin-top:-120px;
+}
+
+/* ABOUT */
+
+.about {
+	padding: 80px 0 110px 0;
+	height: 430px;
+}
+
 /* GET INCONTACT */
 
 .contact {
@@ -52,10 +76,8 @@ a:hover {
 			font-weight: 500;
 		}
 
-		.contact_txt {
-		    font-size: 25px;
-		    color: #282f35;
-		    font-weight: 300;
+		p {
+			font-size: 25px;
 		}
 	}
 }

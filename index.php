@@ -12,6 +12,43 @@
 
 </head>
 <body>
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="pullcontainer visible-xs">
+					<a href="#" id="pull"><i class="fa fa-bars fa-2x"></i>YO</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 top-menu hidden-xs">
+					<nav>
+						<div class="logo-holder"></div>
+							<li><a href="#about">About Me</a></li>
+							<li class="dot">.</li>
+							<li><a href="#work" class="r_spacer">Work</a></li>
+							<li><a href="#skills">Skills</a></li>
+							<li class="dot">.</li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="hero"></div>
+	</header>
+
+	<section class="about" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<i class="fa fa-user " style="font-size:42px; color: #282f35"></i>
+					<h2>Hi!</h2>
+					<p class="text-intro">I'm Daniel Andrade, an electronics engineer that fell in love with the web. For the past <span style="font-size:30px;">∞</span> years I have worked on many cool projects, as a full stack web developer as well as an embedded systems engineer.</p>
+				</div>
+			</div>
+		</div>
+	</section>
 	
 	<section class="contact">
 		<div class="container">
