@@ -56,43 +56,42 @@
 
 	<!-- work -->
 
-		<div class="container-fluid" id="work">
-			<div class="row">
+		<div class="container-fluid visible-xs" id="work">
+			<div class="row text-center">
 				<div id="effect" class="effects clearfix">
 					<div class="col-md-4 left nopadding">
 						<div class="left-box-1">
 							<div class="img">
 								<img src="img/p/darkglass_tb.jpg" alt="Darkglass.com">
 								<div class="overlay">
-									<a href="http://google.com/" class="expand">Darkglass.com</a>
+									<a href="http://darkglass.com" class="expand">Darkglass.com</a>
 									<a class="close-overlay hidden">x</a>
 								</div>
 							</div>
 						</div>
-						<div class="left-box-2 box">
+						<div class="left-box-1 box">
 							<div class="img">
 								<img src="img/p/danielandrade_tb.jpg" alt="Darkglass.com">
 								<div class="overlay">
-									<a href="#" class="expand">danielandrade.net</a>
+									<a href="http://www.danielandrade.net" class="expand">danielandrade.net</a>
 									<a class="close-overlay hidden">x</a>
 								</div>
 							</div>
 						</div>
-						<div class="clearfix"></div>
 						<div class="left-box-1">
 							<div class="img">
-								<img src="img/p/darkglass_tb.jpg" alt="Darkglass.com">
+								<img src="img/p/derolt_tb.jpg" alt="loja.derolt.com.br">
 								<div class="overlay">
-									<a href="http://google.com/" class="expand">expand project</a>
+									<a href="http://loja.derolt.com.br" class="expand">loja.derolt.com.br</a>
 									<a class="close-overlay hidden">x</a>
 								</div>
 							</div>
 						</div>
-						<div class="left-box-2 box">
+						<div class="left-box-1 box">
 							<div class="img">
-								<img src="img/p/darkglass_tb.jpg" alt="Darkglass.com">
+								<img src="img/p/fazendarioencantado_tb.jpg" alt="FazendaRioEncantado.com.br">
 								<div class="overlay">
-									<a href="#" class="expand">custom seats</a>
+									<a href="http://FazendaRioEncantado.com.br" class="expand">FazendaRioEncantado.com.br</a>
 									<a class="close-overlay hidden">x</a>
 								</div>
 							</div>
@@ -101,82 +100,23 @@
 					<div class="col-md-4 left nopadding">
 						<div class="left-box-1">
 							<div class="img">
-								<img src="img/p/darkglass_tb.jpg" alt="Darkglass.com">
+								<img src="img/p/roadtopatagonia_tb.jpg" alt="Roadtopatanonia.net">
 								<div class="overlay">
-									<a href="http://google.com/" class="expand">expand project</a>
+									<a href="http://roadtopatagonia.net" class="expand">Roadtopatanonia.net</a>
 									<a class="close-overlay hidden">x</a>
 								</div>
 							</div>
 						</div>
 						<div class="left-box-2 box">
 							<div class="img">
-								<img src="img/p/darkglass_tb.jpg" alt="Darkglass.com">
+								<img src="img/p/fairuzmaggio_tb.jpg" alt="FairuzMaggio.net">
 								<div class="overlay">
-									<a href="#" class="expand">custom seats</a>
-									<a class="close-overlay hidden">x</a>
-								</div>
-							</div>
-						</div>
-						<div class="clearfix"></div>
-						<div class="left-box-1">
-							<div class="img">
-								<img src="img/p/darkglass_tb.jpg" alt="Darkglass.com">
-								<div class="overlay">
-									<a href="http://google.com/" class="expand">expand project</a>
-									<a class="close-overlay hidden">x</a>
-								</div>
-							</div>
-						</div>
-						<div class="left-box-2 box">
-							<div class="img">
-								<img src="img/p/darkglass_tb.jpg" alt="Darkglass.com">
-								<div class="overlay">
-									<a href="#" class="expand">custom seats</a>
+									<a href="http://fairuzmaggio.net" class="expand">FairuzMaggio.net</a>
 									<a class="close-overlay hidden">x</a>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 left nopadding">
-						<div class="left-box-1">
-							<div class="img">
-								<img src="img/p/darkglass_tb.jpg" alt="Darkglass.com">
-								<div class="overlay">
-									<a href="http://google.com/" class="expand">expand project</a>
-									<a class="close-overlay hidden">x</a>
-								</div>
-							</div>
-						</div>
-						<div class="left-box-2 box">
-							<div class="img">
-								<img src="img/p/darkglass_tb.jpg" alt="Darkglass.com">
-								<div class="overlay">
-									<a href="#" class="expand">custom seats</a>
-									<a class="close-overlay hidden">x</a>
-								</div>
-							</div>
-						</div>
-						<div class="clearfix"></div>
-						<div class="left-box-1">
-							<div class="img">
-								<img src="img/p/darkglass_tb.jpg" alt="Darkglass.com">
-								<div class="overlay">
-									<a href="http://google.com/" class="expand">expand project</a>
-									<a class="close-overlay hidden">x</a>
-								</div>
-							</div>
-						</div>
-						<div class="left-box-2 box">
-							<div class="img">
-								<img src="img/p/darkglass_tb.jpg" alt="Darkglass.com">
-								<div class="overlay">
-									<a href="#" class="expand">custom seats</a>
-									<a class="close-overlay hidden">x</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
 					</div>
 				</div>
 			</div>
