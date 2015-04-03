@@ -14,7 +14,8 @@
 
 </head>
 <body>
-
+	
+	<!-- header -->
 	<header>
 		<div class="container">
 			<div class="row">
@@ -39,19 +40,151 @@
 		</div>
 		<div class="hero"></div>
 	</header>
-
+	
+	<!-- about -->
 	<section class="about" id="about">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<i class="fa fa-user bounce" style="font-size:42px; color: #282f35"></i>
 					<h2>Hi!</h2>
-					<p class="text-intro">I'm Daniel Andrade, an electronics engineer that fell in love with the web. For the past <span style="font-size:30px;">∞</span> years I have worked on many cool projects, as a full stack web developer as well as an embedded systems engineer.</p>
+					<p>I'm Daniel Andrade, an electronics engineer that fell in love with the web. For the past <span style="font-size:30px;">∞</span> years I have worked on many cool projects, as a full stack web developer as well as an embedded systems engineer.</p>
+					<i class="fa fa-connectdevelop bounce" style="font-size:42px; color: #282f35; margin-top:25px;"></i>
+					<h1>Skills</h1>
+					<p>The crossover between design, programming and electronics has always been of interest to me. <br/><br/>I have a wide range of skills that include front-end development (HTML5, CSS3, SASS, Javascript, Responsive, UX), back-end development using open source technologies (PHP, Wordpress, Python, MySQL, mongoDB), Linux server system administration, deployment and performance tuning (Apache, MySQL and NGinx). <br/><br/>As an Engineer, my skill set is focused on Embedded Systems (Electronics, Matlab, Circuit Simulation, Robotics, Microcontrollers...). Well, you can check my resume for more detalied information <a href="http://www.danielandrade.net/Daniel_Spillere_Andrade-CV.pdf" target="_blank"><b>HERE</b></a>. </p>
 				</div>
 			</div>
 		</div>
 	</section>
+
+	<!-- work -->
+	<div class="container-fluid" id="work">
+			<div class="row">
+				<div id="effect" class="effects clearfix">
+					<div class="col-md-4 left nopadding">
+						<div class="left-box-1">
+							<div class="img">
+								<img src="img/l1.jpg" alt="Leather Seats">
+								<div class="overlay">
+									<a href="http://google.com/" class="expand">expand project</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+						<div class="left-box-2 box">
+							<div class="img">
+								<img src="img/l2.jpg" alt="Custom Seats">
+								<div class="overlay">
+									<a href="#" class="expand">custom seats</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="left-box-1">
+							<div class="img">
+								<img src="img/l1.jpg" alt="Leather Seats">
+								<div class="overlay">
+									<a href="http://google.com/" class="expand">expand project</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+						<div class="left-box-2 box">
+							<div class="img">
+								<img src="img/l2.jpg" alt="Custom Seats">
+								<div class="overlay">
+									<a href="#" class="expand">custom seats</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 left nopadding">
+						<div class="left-box-1">
+							<div class="img">
+								<img src="img/l1.jpg" alt="Leather Seats">
+								<div class="overlay">
+									<a href="http://google.com/" class="expand">expand project</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+						<div class="left-box-2 box">
+							<div class="img">
+								<img src="img/l2.jpg" alt="Custom Seats">
+								<div class="overlay">
+									<a href="#" class="expand">custom seats</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="left-box-1">
+							<div class="img">
+								<img src="img/l1.jpg" alt="Leather Seats">
+								<div class="overlay">
+									<a href="http://google.com/" class="expand">expand project</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+						<div class="left-box-2 box">
+							<div class="img">
+								<img src="img/l2.jpg" alt="Custom Seats">
+								<div class="overlay">
+									<a href="#" class="expand">custom seats</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 left nopadding">
+						<div class="left-box-1">
+							<div class="img">
+								<img src="img/l1.jpg" alt="Leather Seats">
+								<div class="overlay">
+									<a href="http://google.com/" class="expand">expand project</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+						<div class="left-box-2 box">
+							<div class="img">
+								<img src="img/l2.jpg" alt="Custom Seats">
+								<div class="overlay">
+									<a href="#" class="expand">custom seats</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+						<div class="left-box-1">
+							<div class="img">
+								<img src="img/l1.jpg" alt="Leather Seats">
+								<div class="overlay">
+									<a href="http://google.com/" class="expand">expand project</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+						<div class="left-box-2 box">
+							<div class="img">
+								<img src="img/l2.jpg" alt="Custom Seats">
+								<div class="overlay">
+									<a href="#" class="expand">custom seats</a>
+									<a class="close-overlay hidden">x</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
 	
+	<!-- contact -->
 	<section class="contact" id="contact">
 		<div class="container">
 			<div class="row">
@@ -68,6 +201,7 @@
 		</div>
 	</section>
 	
+	<!-- footer -->
 	<footer id="footer">
 		<div class="container">
 			<div class="row text-center">
