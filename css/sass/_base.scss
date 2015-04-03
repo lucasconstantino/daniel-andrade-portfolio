@@ -29,13 +29,56 @@ p {
 
 /* HEADER */
 header {
-	background: url(../img/top-bg.jpg) no-repeat top center #6eb7f6;
+	background: url(../img/top-bg.jpg) no-repeat center #6eb7f6;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	height: 685px;
-	margin-top:-120px;
+
+	.logo {
+		background: url(../img/main-logo.png) no-repeat center center;
+		width: 94px;
+		height: 85px;
+		position: absolute;
+		top: 0;
+		left: 435px;
+	}
+
+	.r_spacer {
+		margin-right: 180px;
+	}
+
+	nav {
+	    height: 85px;
+	    margin-top: 30px;
+	    position: relative;
+
+	    ul, ol {
+	    	padding:0;
+			list-style: none;
+			list-style-image: none;	
+
+			li {
+				display: inline;
+				margin-right: 15px;
+				font-size: 18px;
+			}
+	    }
+	}
+
+	.pullcontainer {
+
+		.pull {
+			float: right;
+			margin: 25px;
+		}
+
+		.logo_mobile {
+			float: left;
+			padding-top: 10px;
+		}
+	}
 }
 
 /* ABOUT */

@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Daniel Andrade</title>
 
 	<!--styles-->
@@ -17,22 +19,22 @@
 		<div class="container">
 			<div class="row">
 				<div class="pullcontainer visible-xs">
-					<a href="#" id="pull"><i class="fa fa-bars fa-2x"></i>YO</a>
+					<a href="#" id="pull" class="pull"><i class="fa fa-bars fa-2x"></i></a>
+					<img src="img/main-logo.png" alt="" class="logo_mobile">
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12 top-menu hidden-xs">
-					<nav>
-						<div class="logo-holder"></div>
-							<li><a href="#about">About Me</a></li>
-							<li class="dot">.</li>
-							<li><a href="#work" class="r_spacer">Work</a></li>
-							<li><a href="#skills">Skills</a></li>
-							<li class="dot">.</li>
-							<li><a href="#contact">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
+			<div class="row hidden-xs text-center">
+				<nav>
+					<ul class="clearfix">
+						<li><a href="#about">ABOUT ME</a></li>
+						<li class="dot">.</li>
+						<li><a href="#work">WORK</a></li>
+						<li><img id="logo-img" src="img/main-logo.png" alt=""></li>
+						<li><a href="#skills">SKILLS</a></li>
+						<li class="dot">.</li>
+						<li><a href="#contact">CONTACT</a></li>
+					</ul>
+				</nav>
 			</div>
 		</div>
 		<div class="hero"></div>
@@ -42,7 +44,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
-					<i class="fa fa-user " style="font-size:42px; color: #282f35"></i>
+					<i class="fa fa-user bounce" style="font-size:42px; color: #282f35"></i>
 					<h2>Hi!</h2>
 					<p class="text-intro">I'm Daniel Andrade, an electronics engineer that fell in love with the web. For the past <span style="font-size:30px;">∞</span> years I have worked on many cool projects, as a full stack web developer as well as an embedded systems engineer.</p>
 				</div>
@@ -50,7 +52,7 @@
 		</div>
 	</section>
 	
-	<section class="contact">
+	<section class="contact" id="contact">
 		<div class="container">
 			<div class="row">
 				<div class="sign-up">
@@ -71,11 +73,11 @@
 			<div class="row text-center">
 				<div class="col-md-12 text-center">
 					<ul class="footer-icons">
-						<li><a href="https://github.com/dansku" target="_blank"><i class="fa fa-github-square fa-3" style="font-size:42px;"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/dansku" target="_blank"><i class="fa fa-linkedin-square fa-3" style="font-size:42px;"></i></a></li>
-						<li><a href="https://instagram.com/danskubr" target="_blank"><i class="fa fa-instagram fa-3" style="font-size:42px;"></i></a></li>
-						<li><a href="https://www.youtube.com/danskubr" target="_blank"><i class="fa fa-youtube-square fa-3" style="font-size:42px;"></i></a></li>
-						<li><a href="https://twitter.com/dspillere" target="_blank"><i class="fa fa-twitter-square fa-3" style="font-size:42px;"></i></a></li>
+						<li><a href="https://github.com/dansku" target="_blank"><i class="fa fa-github-square fa-3 bounce" style="font-size:42px;"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/dansku" target="_blank"><i class="fa fa-linkedin-square fa-3 bounce" style="font-size:42px;"></i></a></li>
+						<li><a href="https://instagram.com/danskubr" target="_blank"><i class="fa fa-instagram fa-3 bounce" style="font-size:42px;"></i></a></li>
+						<li><a href="https://www.youtube.com/danskubr" target="_blank"><i class="fa fa-youtube-square fa-3 bounce" style="font-size:42px;"></i></a></li>
+						<li><a href="https://twitter.com/dspillere" target="_blank"><i class="fa fa-twitter-square fa-3 bounce" style="font-size:42px;"></i></a></li>
 					</ul>
 					<div class="clearfix"></div>
 				</div>
