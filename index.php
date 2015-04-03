@@ -55,74 +55,344 @@
 	</section>
 
 	<!-- work -->
+	<section class="work" id="work">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div style="col-md-12 ">
+						<i class="fa fa-rocket bounce text-center" style="font-size:42px; color: #282f35; margin-top:25px; width:100%"></i>
+						<h1 class="text-center">Work</h1>
+					</div>
 
-		<div class="container-fluid visible-xs" id="work">
-			<div class="row text-center">
-				<div id="effect" class="effects clearfix">
-					<div class="col-md-4 left nopadding">
-						<div class="left-box-1">
-							<div class="img">
-								<img src="img/p/darkglass_tb.jpg" alt="Darkglass.com">
-								<div class="overlay">
-									<a href="http://darkglass.com" class="expand">Darkglass.com</a>
-									<a class="close-overlay hidden">x</a>
-								</div>
-							</div>
+					<ul id="filters" class="clearfix">
+						<li><span class="filter active" data-filter="app card icon logo web">All</span></li>
+						<li><span class="filter" data-filter="web">Web</span></li>
+						<li><span class="filter" data-filter="eng">Engineering</span></li>
+						<li><span class="filter" data-filter="photo">Photography</span></li>
+					</ul>
+
+					<div id="portfoliolist">
+			
+			<div class="portfolio logo" data-cat="logo">
+				<div class="portfolio-wrapper">				
+					<img src="img/portfolios/logo/5.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Bird Document</a>
+							<span class="text-category">Logo</span>
 						</div>
-						<div class="left-box-1 box">
-							<div class="img">
-								<img src="img/p/danielandrade_tb.jpg" alt="Darkglass.com">
-								<div class="overlay">
-									<a href="http://www.danielandrade.net" class="expand">danielandrade.net</a>
-									<a class="close-overlay hidden">x</a>
-								</div>
-							</div>
-						</div>
-						<div class="left-box-1">
-							<div class="img">
-								<img src="img/p/derolt_tb.jpg" alt="loja.derolt.com.br">
-								<div class="overlay">
-									<a href="http://loja.derolt.com.br" class="expand">loja.derolt.com.br</a>
-									<a class="close-overlay hidden">x</a>
-								</div>
-							</div>
-						</div>
-						<div class="left-box-1 box">
-							<div class="img">
-								<img src="img/p/fazendarioencantado_tb.jpg" alt="FazendaRioEncantado.com.br">
-								<div class="overlay">
-									<a href="http://FazendaRioEncantado.com.br" class="expand">FazendaRioEncantado.com.br</a>
-									<a class="close-overlay hidden">x</a>
-								</div>
-							</div>
-						</div>
+						<div class="label-bg"></div>
 					</div>
-					<div class="col-md-4 left nopadding">
-						<div class="left-box-1">
-							<div class="img">
-								<img src="img/p/roadtopatagonia_tb.jpg" alt="Roadtopatanonia.net">
-								<div class="overlay">
-									<a href="http://roadtopatagonia.net" class="expand">Roadtopatanonia.net</a>
-									<a class="close-overlay hidden">x</a>
-								</div>
-							</div>
+				</div>
+			</div>				
+
+			<div class="portfolio app" data-cat="app">
+				<div class="portfolio-wrapper">			
+					<img src="img/portfolios/app/1.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Visual Infography</a>
+							<span class="text-category">APP</span>
 						</div>
-						<div class="left-box-2 box">
-							<div class="img">
-								<img src="img/p/fairuzmaggio_tb.jpg" alt="FairuzMaggio.net">
-								<div class="overlay">
-									<a href="http://fairuzmaggio.net" class="expand">FairuzMaggio.net</a>
-									<a class="close-overlay hidden">x</a>
-								</div>
-							</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>		
+			
+			<div class="portfolio web" data-cat="web">
+				<div class="portfolio-wrapper">						
+					<img src="img/portfolios/web/4.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Sonor's Design</a>
+							<span class="text-category">Web design</span>
 						</div>
+						<div class="label-bg"></div>
 					</div>
+				</div>
+			</div>				
+			
+			<div class="portfolio card" data-cat="card">
+				<div class="portfolio-wrapper">			
+					<img src="img/portfolios/card/1.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Typography Company</a>
+							<span class="text-category">Business card</span>
+						</div>
+						<div class="label-bg"></div>
 					</div>
+				</div>
+			</div>	
+						
+			<div class="portfolio app" data-cat="app">
+				<div class="portfolio-wrapper">
+					<img src="img/portfolios/app/3.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Weatherette</a>
+							<span class="text-category">APP</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>			
+			
+			<div class="portfolio card" data-cat="card">
+				<div class="portfolio-wrapper">			
+					<img src="img/portfolios/card/4.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">BMF</a>
+							<span class="text-category">Business card</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="portfolio card" data-cat="card">
+				<div class="portfolio-wrapper">			
+					<img src="img/portfolios/card/5.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Techlion</a>
+							<span class="text-category">Business card</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+			
+			<div class="portfolio logo" data-cat="logo">
+				<div class="portfolio-wrapper">			
+					<img src="img/portfolios/logo/1.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">KittyPic</a>
+							<span class="text-category">Logo</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>																																							
+			
+			<div class="portfolio app" data-cat="app">
+				<div class="portfolio-wrapper">			
+					<img src="img/portfolios/app/2.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Graph Plotting</a>
+							<span class="text-category">APP</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>														
+			
+			<div class="portfolio card" data-cat="card">
+				<div class="portfolio-wrapper">			
+					<img src="img/portfolios/card/2.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">QR Quick Response</a>
+							<span class="text-category">Business card</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>				
+
+			<div class="portfolio logo" data-cat="logo">
+				<div class="portfolio-wrapper">			
+					<img src="img/portfolios/logo/6.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Mobi Sock</a>
+							<span class="text-category">Logo</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>																	
+
+			<div class="portfolio logo" data-cat="logo">
+				<div class="portfolio-wrapper">			
+					<img src="img/portfolios/logo/7.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Village Community Church</a>
+							<span class="text-category">Logo</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>													
+			
+			<div class="portfolio icon" data-cat="icon">
+				<div class="portfolio-wrapper">			
+					<img src="img/portfolios/icon/4.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Domino's Pizza</a>
+							<span class="text-category">Icon</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>							
+
+			<div class="portfolio web" data-cat="web">
+				<div class="portfolio-wrapper">						
+					<img src="img/portfolios/web/3.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Backend Admin</a>
+							<span class="text-category">Web design</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>																								
+
+			<div class="portfolio icon" data-cat="icon">
+				<div class="portfolio-wrapper">			
+					<img src="img/portfolios/icon/1.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Instagram</a>
+							<span class="text-category">Icon</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>				
+			
+			<div class="portfolio web" data-cat="web">
+				<div class="portfolio-wrapper">						
+					<img src="img/portfolios/web/2.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Student Guide</a>
+							<span class="text-category">Web design</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>																	
+
+			<div class="portfolio icon" data-cat="icon">
+				<div class="portfolio-wrapper">
+					<img src="img/portfolios/icon/2.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Scoccer</a>
+							<span class="text-category">Icon</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>																																																																
+
+			<div class="portfolio icon" data-cat="icon">
+				<div class="portfolio-wrapper">						
+					<img src="img/portfolios/icon/5.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">3D Map</a>
+							<span class="text-category">Icon</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>			
+			
+			<div class="portfolio web" data-cat="web">
+				<div class="portfolio-wrapper">						
+					<img src="img/portfolios/web/1.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Note</a>
+							<span class="text-category">Web design</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>									
+			
+			<div class="portfolio logo" data-cat="logo">
+				<div class="portfolio-wrapper">			
+					<img src="img/portfolios/logo/3.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Native Designers</a>
+							<span class="text-category">Logo</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>																	
+
+			<div class="portfolio logo" data-cat="logo">
+				<div class="portfolio-wrapper">			
+					<img src="img/portfolios/logo/4.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Bookworm</a>
+							<span class="text-category">Logo</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>																												
+			
+			<div class="portfolio icon" data-cat="icon">
+				<div class="portfolio-wrapper">			
+					<img src="img/portfolios/icon/3.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Sandwich</a>
+							<span class="text-category">Icon</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>																								
+			
+			<div class="portfolio card" data-cat="card">
+				<div class="portfolio-wrapper">			
+					<img src="img/portfolios/card/3.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Reality</a>
+							<span class="text-category">Business card</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>	
+
+			<div class="portfolio logo" data-cat="logo">
+				<div class="portfolio-wrapper">			
+					<img src="img/portfolios/logo/2.jpg" alt="" />
+					<div class="label">
+						<div class="label-text">
+							<a class="text-title">Speciallisterne</a>
+							<span class="text-category">Logo</span>
+						</div>
+						<div class="label-bg"></div>
+					</div>
+				</div>
+			</div>				
+		</div>
+					
 				</div>
 			</div>
 		</div>
+	</section>
+		
 
-		<!-- skills -->
+	<!-- skills -->
 	<section class="skills" id="skills">
 		<div class="container">
 			<div class="row">
@@ -140,12 +410,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="sign-up">
-					<h2 class="logo-contact"></h2>
+					<div class="text-center">
+						<img src="img/dan.png" class="logo-contact" width="150" height="150" alt="">
+					</div>
 					<h2 class="contact_txt text-center">Get in touch!</h2>						
 					<p class="contact_txt text-center">I'm available for freelance contracts, so get in touch: <br/>
 						<SCRIPT TYPE="text/javascript">
 							emailE=('daniel@' + 'danielandrade.net')	
-							document.write('<a href="mailto:' + emailE + '">' + emailE + '</a>')
+							document.write('<a style="color:#fff;" href="mailto:' + emailE + '">' + emailE + '</a>')
 						</SCRIPT></p>
 				</div>
 			</div>
@@ -175,6 +447,8 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.12/jquery.transit.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/mixitup/1.5.6/jquery.mixitup.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/smooth-scroll.min.js"></script>
 	<script> smoothScroll.init(); </script>
