@@ -26,13 +26,13 @@
 			<div class="row hidden-xs text-center">
 				<nav>
 					<ul class="clearfix">
-						<li><a href="#about">ABOUT ME</a></li>
+						<li><a href="#about" data-scroll>ABOUT ME</a></li>
 						<li class="dot">.</li>
-						<li><a href="#work">WORK</a></li>
+						<li><a href="#work" data-scroll>WORK</a></li>
 						<li><img id="logo-img" src="img/main-logo.png" alt=""></li>
-						<li><a href="#skills">SKILLS</a></li>
+						<li><a href="#skills" data-scroll>SKILLS</a></li>
 						<li class="dot">.</li>
-						<li><a href="#contact">CONTACT</a></li>
+						<li><a href="#contact" data-scroll>CONTACT</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -91,6 +91,8 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.12/jquery.transit.min.js"></script>
 	<script src="js/script.js"></script>
+	<script src="js/smooth-scroll.min.js"></script>
+	<script> smoothScroll.init(); </script>
 
 </body>
 </html>
