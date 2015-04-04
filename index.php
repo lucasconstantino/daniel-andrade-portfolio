@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<link href='//fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
 	<link href="css/style.css?v=1" rel="stylesheet">
-
+	<link href='//cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.3.0.2/css/swipebox.min.css'rel=' stylesheet' type='text/css'>
 </head>
 <body>
 	
@@ -75,180 +75,214 @@
 					<div id="portfoliolist">
 						<!-- darkglass -->
 						<div class="portfolio web" data-cat="web">
-							<div class="portfolio-wrapper">			
+							<div class="portfolio-wrapper">
+							<a class="swipebox" rel="gal" href="img/portfolios/web/darkglass_b.jpg">			
 								<img src="img/portfolios/web/darkglass.jpg" alt="" />
 								<div class="label">
 									<div class="label-text">
-										<a class="text-title">darkglass.com</a>
+										<a class="text-title" href="http://www.darkglass.com" target="_blank">darkglass.com</a>
 										<span class="text-category">Wordpress Theme</span>
 									</div>
 									<div class="label-bg"></div>
 								</div>
+							</a>
 							</div>
 						</div>	
-						
-						<!-- deRolt -->
-						<div class="portfolio web" data-cat="web">
-							<div class="portfolio-wrapper">			
-								<img src="img/portfolios/web/derolt.jpg" alt="" />
+
+						<!-- Photo: Budapest -->
+						<div class="portfolio photo" data-cat="photo">
+							<div class="portfolio-wrapper">
+							<a class="swipebox" rel="gal" href="img/portfolios/photo/budapest_b.jpg">			
+								<img src="img/portfolios/photo/budapest.jpg" alt="" />
 								<div class="label">
 									<div class="label-text">
-										<a class="text-title">loja.derolt.com.br</a>
-										<span class="text-category">Magento Store</span>
+										<a class="text-title">Budapest</a>
+										<span class="text-category"></span>
 									</div>
 									<div class="label-bg"></div>
 								</div>
+							</a>
+							</div>
+						</div>		
+						
+						<!-- deRolt -->
+						<div class="portfolio web" data-cat="web">
+							<div class="portfolio-wrapper">
+							<a class="swipebox" rel="gal" href="img/portfolios/web/derolt_b.jpg">			
+								<img src="img/portfolios/web/derolt.jpg" alt="" />
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title" href="http://loja.derolt.com.br" target="_blank">loja.derolt.com.br</a>
+										<span class="text-category">Magento Web Store</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</a>
 							</div>
 						</div>																																							
 						
 						<!-- fazenda rio encantado -->
 						<div class="portfolio web" data-cat="web">
-							<div class="portfolio-wrapper">			
-								<img src="img/portfolios/web/fazendarioencanrado.jpg" alt="" />
+							<div class="portfolio-wrapper">
+							<a class="swipebox" rel="gal" href="img/portfolios/web/fazendarioencantado_b.jpg">			
+								<img src="img/portfolios/web/fazendarioencantado.jpg" alt="" />
 								<div class="label">
 									<div class="label-text">
-										<a class="text-title">fazendarioencantado.com.br</a>
+										<a class="text-title" href="http://fazendarioencantado.com.br" target="_blank">fazendarioencantado.com.br</a>
 										<span class="text-category">Website</span>
 									</div>
 									<div class="label-bg"></div>
 								</div>
+							</a>
 							</div>
-						</div>														
+						</div>		
+
+						<!-- Eng: Pedal -->
+						<div class="portfolio eng" data-cat="eng">
+							<div class="portfolio-wrapper">
+							<a class="swipebox" rel="gal" href="img/portfolios/eng/pedal_b.jpg">			
+								<img src="img/portfolios/eng/pedal.jpg" alt="" />
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Programmable Pedal</a>
+										<span class="text-category"></span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</a>
+							</div>
+						</div>													
 						
 						<!-- daniel andrade -->
 						<div class="portfolio web" data-cat="web">
-							<div class="portfolio-wrapper">			
+							<div class="portfolio-wrapper">
+							<a class="swipebox" rel="gal" href="img/portfolios/web/danielandrade_b.jpg">			
 								<img src="img/portfolios/web/danielandrade.jpg" alt="" />
 								<div class="label">
 									<div class="label-text">
-										<a class="text-title">danielandrade.net</a>
+										<a class="text-title" href="http://danielandrade.net" target="_blank">danielandrade.net</a>
 										<span class="text-category">Wordpress Theme</span>
 									</div>
 									<div class="label-bg"></div>
 								</div>
+							</a>
 							</div>
 						</div>
-						
+
+						<!-- Photo: Alex Paulista -->
+						<div class="portfolio photo" data-cat="photo">
+							<div class="portfolio-wrapper">
+							<a class="swipebox" rel="gal" href="img/portfolios/photo/alex_b.jpg">			
+								<img src="img/portfolios/photo/alex.jpg" alt="" />
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Alex Paulista</a>
+										<span class="text-category">Brasil Papaya</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</a>
+							</div>
+						</div>		
+
+						<!-- Eng: Ares -->
+						<div class="portfolio eng" data-cat="eng">
+							<div class="portfolio-wrapper">
+							<a class="swipebox" rel="gal" href="img/portfolios/eng/ares_b.jpg">			
+								<img src="img/portfolios/eng/ares.jpg" alt="" />
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Ares V1.0</a>
+										<span class="text-category">ARM M0 Dev Board</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</a>
+							</div>
+						</div>	
+
+
 						<!-- fairuz maggio -->					
 						<div class="portfolio web" data-cat="eng">
-							<div class="portfolio-wrapper">				
+							<div class="portfolio-wrapper">
+							<a class="swipebox" rel="gal" href="img/portfolios/web/fairuzmaggio_b.jpg">				
 								<img src="img/portfolios/web/fairuzmaggio.jpg" alt="" />
 								<div class="label">
 									<div class="label-text">
-										<a class="text-title">fairuzmaggio.net</a>
+										<a class="text-title" href="http://fairuzmaggio.net" target="_blank">fairuzmaggio.net</a>
 										<span class="text-category">Wordpress Theme</span>
 									</div>
 									<div class="label-bg"></div>
 								</div>
+							</a>
 							</div>
 						</div>				
 
 						<!-- road to patagonia -->
 						<div class="portfolio web" data-cat="web">
-							<div class="portfolio-wrapper">			
+							<div class="portfolio-wrapper">
+							<a class="swipebox" rel="gal" href="img/portfolios/web/roadtopatagonia_b.jpg">			
 								<img src="img/portfolios/web/roadtopatagonia.jpg" alt="" />
 								<div class="label">
 									<div class="label-text">
-										<a class="text-title">roadtopatagonia.net</a>
+										<a class="text-title" href="http://roadtopatagonia.net" target="_blank">roadtopatagonia.net</a>
 										<span class="text-category">Jekyll Blog</span>
 									</div>
 									<div class="label-bg"></div>
 								</div>
+							</a>
 							</div>
 						</div>		
-						
-						<div class="portfolio eng" data-cat="eng">
-							<div class="portfolio-wrapper">						
-								<img src="img/portfolios/web/4.jpg" alt="" />
-								<div class="label">
-									<div class="label-text">
-										<a class="text-title">Sonor's Design</a>
-										<span class="text-category">Web design</span>
-									</div>
-									<div class="label-bg"></div>
-								</div>
-							</div>
-						</div>				
-						
-						<div class="portfolio eng" data-cat="eng">
-							<div class="portfolio-wrapper">			
-								<img src="img/portfolios/card/1.jpg" alt="" />
-								<div class="label">
-									<div class="label-text">
-										<a class="text-title">Typography Company</a>
-										<span class="text-category">Business card</span>
-									</div>
-									<div class="label-bg"></div>
-								</div>
-							</div>
-						</div>	
-									
+
+						<!-- Eng: Thesis -->
 						<div class="portfolio eng" data-cat="eng">
 							<div class="portfolio-wrapper">
-								<img src="img/portfolios/app/3.jpg" alt="" />
+							<a class="swipebox" rel="gal" href="img/portfolios/eng/thesis_b.jpg">			
+								<img src="img/portfolios/eng/thesis.jpg" alt="" />
 								<div class="label">
 									<div class="label-text">
-										<a class="text-title">Weatherette</a>
-										<span class="text-category">APP</span>
+										<a class="text-title">Mesh Network Node</a>
+										<span class="text-category">Thesis Project</span>
 									</div>
 									<div class="label-bg"></div>
 								</div>
+							</a>
 							</div>
-						</div>			
-						
-						<div class="portfolio eng" data-cat="eng">
-							<div class="portfolio-wrapper">			
-								<img src="img/portfolios/card/4.jpg" alt="" />
-								<div class="label">
-									<div class="label-text">
-										<a class="text-title">BMF</a>
-										<span class="text-category">Business card</span>
-									</div>
-									<div class="label-bg"></div>
-								</div>
-							</div>
-						</div>	
-						
-		
+						</div>												
+																						
 
+						<!-- Photo: Renato Pimentel -->
 						<div class="portfolio photo" data-cat="photo">
-							<div class="portfolio-wrapper">			
-								<img src="img/portfolios/logo/6.jpg" alt="" />
+							<div class="portfolio-wrapper">
+							<a class="swipebox" rel="gal" href="img/portfolios/photo/renato_b.jpg">		
+								<img src="img/portfolios/photo/renato.jpg" alt="" />
 								<div class="label">
 									<div class="label-text">
-										<a class="text-title">Mobi Sock</a>
-										<span class="text-category">Logo</span>
+										<a class="text-title">Renato Pimentel</a>
+										<span class="text-category">Brasil Papaya</span>
 									</div>
 									<div class="label-bg"></div>
 								</div>
-							</div>
-						</div>																	
-
-						<div class="portfolio photo" data-cat="photo">
-							<div class="portfolio-wrapper">			
-								<img src="img/portfolios/logo/7.jpg" alt="" />
-								<div class="label">
-									<div class="label-text">
-										<a class="text-title">Village Community Church</a>
-										<span class="text-category">Logo</span>
-									</div>
-									<div class="label-bg"></div>
-								</div>
+							</a>
 							</div>
 						</div>													
 						
+						<!-- Photo: Brasil Papaya -->
 						<div class="portfolio photo" data-cat="photo">
-							<div class="portfolio-wrapper">			
-								<img src="img/portfolios/icon/4.jpg" alt="" />
+							<div class="portfolio-wrapper">	
+							<a class="swipebox" rel="gal" href="img/portfolios/photo/bpapaya_b.jpg">
+								<img src="img/portfolios/photo/bpapaya.jpg" alt="" />
 								<div class="label">
 									<div class="label-text">
-										<a class="text-title">Domino's Pizza</a>
-										<span class="text-category">Icon</span>
+										<a class="text-title">Brasil Papaya</a>
+										<span class="text-category">18 years dvd</span>
 									</div>
 									<div class="label-bg"></div>
 								</div>
+							</a>
 							</div>
-						</div>								
+						</div>
+					
 					
 					</div>
 					
@@ -316,9 +350,28 @@
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.12/jquery.transit.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/mixitup/1.5.6/jquery.mixitup.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.3.0.2/js/jquery.swipebox.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/smooth-scroll.min.js"></script>
 	<script> smoothScroll.init(); </script>
+
+<!-- Start of StatCounter Code for Default Guide -->
+	<script type="text/javascript">
+	var sc_project=10377871; 
+	var sc_invisible=1; 
+	var sc_security="ee977784"; 
+	var scJsHost = (("https:" == document.location.protocol) ?
+	"https://secure." : "http://www.");
+	document.write("<sc"+"ript type='text/javascript' src='" +
+	scJsHost+
+	"statcounter.com/counter/counter.js'></"+"script>");
+	</script>
+	<noscript><div class="statcounter"><a title="web analytics"
+	href="http://statcounter.com/" target="_blank"><img
+	class="statcounter"
+	src="http://c.statcounter.com/10377871/0/ee977784/1/"
+	alt="web analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
 
 </body>
 </html>
