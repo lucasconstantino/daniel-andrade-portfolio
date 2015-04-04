@@ -70,29 +70,87 @@
 						<li><span class="filter" data-filter="eng">Engineering</span></li>
 						<li><span class="filter" data-filter="photo">Photography</span></li>
 					</ul>
-
+					
+					
 					<div id="portfoliolist">
-			
-						<div class="portfolio eng" data-cat="eng">
-							<div class="portfolio-wrapper">				
-								<img src="img/portfolios/logo/5.jpg" alt="" />
+						<!-- darkglass -->
+						<div class="portfolio web" data-cat="web">
+							<div class="portfolio-wrapper">			
+								<img src="img/portfolios/web/darkglass.jpg" alt="" />
 								<div class="label">
 									<div class="label-text">
-										<a class="text-title">Bird Document</a>
-										<span class="text-category">Logo</span>
+										<a class="text-title">darkglass.com</a>
+										<span class="text-category">Wordpress Theme</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>	
+						
+						<!-- deRolt -->
+						<div class="portfolio web" data-cat="web">
+							<div class="portfolio-wrapper">			
+								<img src="img/portfolios/web/derolt.jpg" alt="" />
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">loja.derolt.com.br</a>
+										<span class="text-category">Magento Store</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>																																							
+						
+						<!-- fazenda rio encantado -->
+						<div class="portfolio web" data-cat="web">
+							<div class="portfolio-wrapper">			
+								<img src="img/portfolios/web/fazendarioencanrado.jpg" alt="" />
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">fazendarioencantado.com.br</a>
+										<span class="text-category">Website</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>														
+						
+						<!-- daniel andrade -->
+						<div class="portfolio web" data-cat="web">
+							<div class="portfolio-wrapper">			
+								<img src="img/portfolios/web/danielandrade.jpg" alt="" />
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">danielandrade.net</a>
+										<span class="text-category">Wordpress Theme</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						
+						<!-- fairuz maggio -->					
+						<div class="portfolio web" data-cat="eng">
+							<div class="portfolio-wrapper">				
+								<img src="img/portfolios/web/fairuzmaggio.jpg" alt="" />
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">fairuzmaggio.net</a>
+										<span class="text-category">Wordpress Theme</span>
 									</div>
 									<div class="label-bg"></div>
 								</div>
 							</div>
 						</div>				
 
-						<div class="portfolio eng" data-cat="eng">
+						<!-- road to patagonia -->
+						<div class="portfolio web" data-cat="web">
 							<div class="portfolio-wrapper">			
-								<img src="img/portfolios/app/1.jpg" alt="" />
+								<img src="img/portfolios/web/roadtopatagonia.jpg" alt="" />
 								<div class="label">
 									<div class="label-text">
-										<a class="text-title">Visual Infography</a>
-										<span class="text-category">APP</span>
+										<a class="text-title">roadtopatagonia.net</a>
+										<span class="text-category">Jekyll Blog</span>
 									</div>
 									<div class="label-bg"></div>
 								</div>
@@ -151,57 +209,7 @@
 							</div>
 						</div>	
 						
-						<div class="portfolio web" data-cat="web">
-							<div class="portfolio-wrapper">			
-								<img src="img/portfolios/card/5.jpg" alt="" />
-								<div class="label">
-									<div class="label-text">
-										<a class="text-title">Techlion</a>
-										<span class="text-category">Business card</span>
-									</div>
-									<div class="label-bg"></div>
-								</div>
-							</div>
-						</div>	
-						
-						<div class="portfolio web" data-cat="web">
-							<div class="portfolio-wrapper">			
-								<img src="img/portfolios/logo/1.jpg" alt="" />
-								<div class="label">
-									<div class="label-text">
-										<a class="text-title">KittyPic</a>
-										<span class="text-category">Logo</span>
-									</div>
-									<div class="label-bg"></div>
-								</div>
-							</div>
-						</div>																																							
-						
-						<div class="portfolio web" data-cat="web">
-							<div class="portfolio-wrapper">			
-								<img src="img/portfolios/app/2.jpg" alt="" />
-								<div class="label">
-									<div class="label-text">
-										<a class="text-title">Graph Plotting</a>
-										<span class="text-category">APP</span>
-									</div>
-									<div class="label-bg"></div>
-								</div>
-							</div>
-						</div>														
-						
-						<div class="portfolio web" data-cat="web">
-							<div class="portfolio-wrapper">			
-								<img src="img/portfolios/card/2.jpg" alt="" />
-								<div class="label">
-									<div class="label-text">
-										<a class="text-title">QR Quick Response</a>
-										<span class="text-category">Business card</span>
-									</div>
-									<div class="label-bg"></div>
-								</div>
-							</div>
-						</div>				
+		
 
 						<div class="portfolio photo" data-cat="photo">
 							<div class="portfolio-wrapper">			
@@ -272,7 +280,7 @@
 						<img src="img/dan.png" class="logo-contact" width="150" height="150" alt="">
 					</div>
 					<h2 class="contact_txt text-center">Get in touch!</h2>						
-					<p class="contact_txt text-center">I'm available for freelance contracts, so get in touch: <br/>
+					<p class="contact_txt text-center">I'm available for freelance projects: <br/>
 						<SCRIPT TYPE="text/javascript">
 							emailE=('daniel@' + 'danielandrade.net')	
 							document.write('<a style="color:#fff;" href="mailto:' + emailE + '">' + emailE + '</a>')
